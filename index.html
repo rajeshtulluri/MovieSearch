@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="description" content="A responsive movie poster grabber">
+   <title>Movie Search</title>
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+   <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <script src="./main.js"></script>
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+  <nav>
+    <form id="form">
+      <input type="text" placeholder="Type a movie title" id="term" />
+      <input id="search" type="submit" value="Go!">
+    </form>
+  </nav>
+  <div class="bg tint">
+    <div class="content row">
+      <div class="col">
+        <section id="poster">
+        </section>
+      </div>
+      <div class="col">
+        <section id="header">
+        </section>
+        <section id="overview">
+        </section>
+        <section id="images">
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
